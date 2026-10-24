@@ -1,0 +1,93 @@
+body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            display: flex;
+            justify-content: center;
+            padding-top: 50px;
+            flex-direction: column;
+            align-items: center;
+            
+        }
+        .container {
+            background: #ffffff;
+            padding: 25px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            width: 100%;
+            max-width: 500px;
+        }
+        h2 {
+            margin-top: 0;
+            color: #333;
+            text-align: center;
+        }
+        form {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+        input[type="text"] {
+            flex: 1;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 14px;
+        }
+        button {
+            padding: 10px 15px;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+        button:hover {
+            background-color: #218838;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        li {
+            background: #f9f9f9;
+            padding: 12px;
+            border-bottom: 1px solid #eee;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .selesai {
+            text-decoration: line-through;
+            color: #888;
+        }
+        .aksi a {
+            text-decoration: none;
+            padding: 5px 8px;
+            font-size: 12px;
+            border-radius: 3px;
+            margin-left: 5px;
+            color: white;
+        }
+        .btn-status {
+            background-color: #007bff;
+        }
+        .btn-hapus {
+            background-color: #dc3545;
+        }
+
+        .btn-edit {
+         background-color: #ffc107; 
+        color: #333 !important;      
+        text-decoration: none;
+        padding: 5px 8px;
+        font-size: 12px;
+        border-radius: 3px;
+        font-weight: bold;
+        display: inline-block;
+        }
+
+        .btn-edit:hover {
+        background-color: #e0a800; 
+        }
